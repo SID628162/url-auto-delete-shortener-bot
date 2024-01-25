@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27956463'))
 API_HASH = environ.get('API_HASH', 'ab3cc18e5286dd5761e433de3d3e7b3c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6801346155:AAGY3_16lu3hZOL61mG4o0n4SlxOTF0uZF4")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6970330307:AAE7xmudw5UEpYMXF9Kusmpyx7PPLuXViI0")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -71,8 +71,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', '')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'moneycase.link')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'c57543922f2b608c128c19c6972b04fef0e295cd')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
